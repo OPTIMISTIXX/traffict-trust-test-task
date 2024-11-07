@@ -1,0 +1,31 @@
+@media (max-width: 1024px) {
+  .stat {
+    .stat__title {
+      font-size: 48px;
+    }
+  }
+}
+
+@media (min-width: 692px) and (max-width: 1024px) {
+  .stat__right {
+    border-width: 2px 0 0 0;
+    border-style: dashed;
+    border-color: rgba(255, 126, 76, 0.3);
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+  .stat__middle {
+    grid-column: 2;
+  }
+  .stat__left {
+    grid-column: 1;
+  }
+}
+
+@media (min-width: 692px) {
+  .stat__left {
+    border-width: 0 2px 0 0;
+    border-style: dashed;
+    border-color: rgba(255, 126, 76, 0.3);
+  }
+}

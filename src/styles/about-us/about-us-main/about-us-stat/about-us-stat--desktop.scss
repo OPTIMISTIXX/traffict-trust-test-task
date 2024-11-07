@@ -1,0 +1,13 @@
+@media (min-width: 1025px) {
+  .stat {
+    .stat__title {
+      font-size: 50px;
+    }
+
+     .stat__middle {
+      border-width: 0 2px 0 0;
+      border-style: dashed;
+      border-color: rgba(255, 126, 76, 0.3);
+    }
+  }
+}

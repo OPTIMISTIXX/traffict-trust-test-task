@@ -1,0 +1,9 @@
+.nav__left--tablet {
+  display: none;
+}
+
+@media (min-width: 1025px) {
+  .burger__menu {
+    display: none;
+  }
+}

@@ -1,3 +1,58 @@
+@font-face {
+  font-family: 'Shippori Antique';
+  src: url('../assets/fonts/ShipporiAntique-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+//Mixins
+@import "./mixins.scss";
+
+//Header
+@import "./about-us/about-us-header/about-us-header.scss";
+@import './about-us/about-us-header/about-us-header--desktop.scss';
+@import './about-us/about-us-header/about-us-header--tablet.scss';
+@import './about-us/about-us-header/about-us-header--phone.scss';
+
+//Main
+@import "./about-us/about-us-main/about-us-main.scss";
+//Main-doctor
+@import "./about-us/about-us-main/about-us-doctor/about-us-doctor.scss";
+@import "./about-us/about-us-main/about-us-doctor/about-us-doctor--desktop.scss";
+@import "./about-us/about-us-main/about-us-doctor/about-us-doctor--tablet.scss";
+@import "./about-us/about-us-main/about-us-doctor/about-us-doctor--phone.scss";
+//Main-stat
+@import "./about-us/about-us-main/about-us-stat/about-us-stat.scss";
+@import "./about-us/about-us-main/about-us-stat/about-us-stat--desktop.scss";
+@import "./about-us/about-us-main/about-us-stat/about-us-stat--tablet.scss";
+@import "./about-us/about-us-main/about-us-stat/about-us-stat--phone.scss";
+
+//Footer
+@import "./about-us/about-us-footer/about-us-footer.scss";
+//Footer-top
+@import "./about-us/about-us-footer/about-us-footer-top/about-us-footer-top.scss";
+@import "./about-us/about-us-footer/about-us-footer-top/about-us-footer-top--desktop.scss";
+@import "./about-us/about-us-footer/about-us-footer-top/about-us-footer-top--tablet.scss";
+@import "./about-us/about-us-footer/about-us-footer-top/about-us-footer-top--phone.scss";
+
 body {
   margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.my-container {
+  max-width: 90%;
+  margin: 0 auto;
 }

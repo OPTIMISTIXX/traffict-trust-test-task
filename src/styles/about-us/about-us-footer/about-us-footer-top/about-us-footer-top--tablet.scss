@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+  .footer__icon {
+    display: none;
+  }
+
+  .footer__image {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .footer__nav__image {
+    max-width: 208px;
+    max-height: 208px;
+  }
+}
