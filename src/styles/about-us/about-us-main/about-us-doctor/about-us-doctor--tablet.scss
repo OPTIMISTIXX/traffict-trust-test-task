@@ -1,0 +1,13 @@
+@media (max-width: 1024px) {
+  .doctor {
+    flex-direction: column;
+
+    &__left__title {
+      font-size: 38px;
+    }
+
+    .doctor__img {
+      height: 500px;
+    }
+  }
+}

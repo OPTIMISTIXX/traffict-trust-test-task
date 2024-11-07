@@ -1,0 +1,11 @@
+@mixin beige_bg_text {
+  font-family: 'Roboto', sans-serif;
+  color: #626262;
+  font-size: 17px;
+}
+
+@mixin flex_center_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

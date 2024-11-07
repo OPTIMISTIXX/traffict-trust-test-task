@@ -1,0 +1,28 @@
+.stat {
+  .stat__container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(299px, 1fr));
+    background-color: #feefb8;
+    border-radius: 40px;
+    border: 12px solid #fff;
+    padding: 40px 0;
+  }
+  .stat__title {
+    color: #ff7e4c;
+    font-family: 'Shippory Antique', sans-serif;
+    text-align: center;
+  }
+
+  .stat__text {
+    @include beige_bg_text;
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  .stat__column {
+    padding: 20px 0;
+    width: 100%;
+  }
+}

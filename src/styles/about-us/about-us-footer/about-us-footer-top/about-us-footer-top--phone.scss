@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+  .footer__nav__image {
+    max-width: 159px;
+    max-height: 159px;
+  }
+
+  .footer__container {
+    flex-direction: column;
+  }
+}

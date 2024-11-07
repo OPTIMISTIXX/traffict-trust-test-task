@@ -1,0 +1,83 @@
+.header {
+  background-color: #fff;
+  font-family: 'Shippori Antique', sans-serif;
+
+  &__line {
+    border-top: 1px solid #ede4e4;
+    border-bottom: none;
+    padding: 10px;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+//nav-left styles
+.nav {
+  min-width: 100%;
+  &__left {
+    display: flex;
+    align-items: center;
+    margin-right: 30%;
+  }
+  &__image {
+    width: 109px;
+    height: 109px;
+  }
+  &__text {
+    position: relative;
+    margin: 0 10px;
+    color: #000;
+    transition: color 0.5s ease;
+  }
+
+  &__text:hover {
+    color:#ff7e4c;
+    text-decoration: none;
+  }
+
+  &__text::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 2px;
+    opacity: 0;
+    background-color: #ff7e4c;
+    transform: translateY(20px);
+    transform-origin: bottom;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  &__text:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  &__text:not(:hover)::after {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+}
+
+//nav-right styles
+.nav {
+  &__button {
+    background-color: #ff7e4c;
+    border: 4px solid #ffffff ;
+    border-radius: 16px 16px 16px 16px;
+    box-shadow: 0px 10px 20px 0px rgba(153, 79.99999999999991, 30.99999999999999, 0.210);
+    transition: transform 0.3s ease;
+  }
+  &__button:hover {
+    background-color: #ff7e4c;
+    border: 4px solid #ffffff;
+    transform: scale(1.1);
+  }
+  }
+
+.nav__right {
+  margin-top: 0 !important;
+}
